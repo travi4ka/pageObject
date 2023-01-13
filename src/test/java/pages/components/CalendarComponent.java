@@ -12,7 +12,6 @@ public class CalendarComponent {
 
 
     public void setDOB(String day, String month, String year) {
-        $("#dateOfBirthInput").click();
         this.year.click();
         $(byText(year)).click();
         this.month.click();
